@@ -190,7 +190,6 @@ final class RealmFetchRequest<T: Object> {
     var sortDescriptors: [SortDescriptor]?
     let type: T.Type
     
-    ///there no way to pass nil otherwise issue with results on fetchedObjects will be
     init(_ predicate: NSPredicate? = nil, _ sortDescriptors: [SortDescriptor]? = nil) {
         self.predicate = predicate
         self.type = T.self

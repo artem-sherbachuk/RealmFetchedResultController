@@ -3,7 +3,6 @@
 //  HKClient
 //
 //  Created by Artem Sherbachuk (UKRAINE) artemsherbachuk@gmail.com on 7/8/17.
-//  Copyright © 2017 Xyrality. All rights reserved.
 //
 
 import RealmSwift
